@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #E0F7FA; 
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+h2 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#quadrado1 { background-color: red; }
+#quadrado2 { background-color: blue; }
+#quadrado3 { background-color: green; }
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    display: inline-block;
+}
+
+#fotodosCandidatos {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
